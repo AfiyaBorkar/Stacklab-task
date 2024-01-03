@@ -132,7 +132,7 @@ const UserProfileForm = () => {
       form.append("yourPhoto", formData.yourPhoto);
     }
 
-    console.log("new", formData);
+    // console.log("new", formData);
 
     try {
       const config={
