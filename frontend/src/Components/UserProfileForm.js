@@ -135,12 +135,17 @@ const UserProfileForm = () => {
     // console.log("new", form);
 
     try {
-      const response = await axios.post(`${process.env.REACT_APP_BACKEND}/user`, form);
+      const config={
+        headers:{
+          "Content-Type":"multipart/form-data"
+        }
+      }
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND}/user`, form,config);
 
       setShowPreview(true);
       // console.log("Response:", response.data);
       setUserId(response.data.data._id);
-      // console.log("Data submitted successfully!");
+      console.log("Data submitted successfully!");
 
       setisloading(false);
 
@@ -298,7 +303,7 @@ const UserProfileForm = () => {
                 onChange={handleInputChange}
               />
 
-              <label>Company Photos:</label>
+              <label>Company Photos: (4 pics required compulsory)</label>
               <input
                 type="file"
                 name="companyPhotos"

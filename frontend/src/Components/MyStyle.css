@@ -29,7 +29,7 @@
 }
 
 .qrc_profile_5 {
-  background-color: var(--qrc-secondary);
+  background-color: #656b6c;
   border-radius: 18px;
   overflow: hidden;
   margin: 15px 0;
@@ -45,12 +45,12 @@
   margin: auto;
   position: relative;
   padding: 15px 15px 1px 15px;
-  -webkit-border-top-left-radius: var(--qrc-border-radius);
-  -webkit-border-top-right-radius: var(--qrc-border-radius);
-  -moz-border-radius-topleft: var(--qrc-border-radius);
-  -moz-border-radius-topright: var(--qrc-border-radius);
-  border-top-left-radius: var(--qrc-border-radius);
-  border-top-right-radius: var(--qrc-border-radius);
+  -webkit-border-top-left-radius: 16px;
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-topright: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   padding-bottom: 90px;
   z-index: 9;
 }
@@ -59,7 +59,7 @@
   padding-top: 0;
   position: relative;
   padding-bottom: 15px;
-  background: var(--qrc-secondary);
+  background: #656b6c;
 }
 
 .qrc_profile_5 .qrc_coverimage {
