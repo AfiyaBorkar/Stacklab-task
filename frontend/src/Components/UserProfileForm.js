@@ -144,7 +144,6 @@ const UserProfileForm = () => {
 
       setisloading(false);
 
-      // Optionally, you can clear the form
       setFormData({
         fullName: "",
         linkedIn: "",
@@ -276,7 +275,7 @@ const UserProfileForm = () => {
                 onChange={handleInputChange}
               />
 
-              <label>Company Phone Number</label>
+              <label>Company Phone Number: </label>
               <input
                 type="text"
                 name="linkedInCompanyLink"
