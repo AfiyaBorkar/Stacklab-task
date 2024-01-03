@@ -78,7 +78,7 @@
 .qrc_profile_5 .qrc_profile_inner_info {
   margin-top: 10px;
   z-index: 99;
-  background:  rgb(6, 18, 68);
+  /* background:  rgb(6, 18, 68); */
 }
 
 .qrc_profile_inner_info {
