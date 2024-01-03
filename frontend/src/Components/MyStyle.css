@@ -29,7 +29,7 @@
 }
 
 .qrc_profile_5 {
-  background-color: #656b6c;
+  background-color: rgb(6, 18, 68);
   border-radius: 18px;
   overflow: hidden;
   margin: 15px 0;
@@ -59,7 +59,7 @@
   padding-top: 0;
   position: relative;
   padding-bottom: 15px;
-  background: #656b6c;
+  background:  rgb(6, 18, 68);
 }
 
 .qrc_profile_5 .qrc_coverimage {
@@ -78,7 +78,7 @@
 .qrc_profile_5 .qrc_profile_inner_info {
   margin-top: 10px;
   z-index: 99;
-  background: var(--qrc-seconary);
+  background:  rgb(6, 18, 68);
 }
 
 .qrc_profile_inner_info {
