@@ -18,7 +18,7 @@ export default function Contact({ UserInfo }) {
         <div className="qrc_contact_info">
           <div className="qrc_contact_info_title">Call Us</div>
           <div className="qrc_contact_number">
-            <a href={`tel:+91 ${UserInfo?.phoneNumber}`}>
+            <a href={`tel:+91 ${UserInfo?.linkedInCompanyLink}`}>
               +91 {UserInfo?.phoneNumber}
             </a>
           </div>
