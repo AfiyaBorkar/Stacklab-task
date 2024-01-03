@@ -276,7 +276,7 @@ const UserProfileForm = () => {
                 onChange={handleInputChange}
               />
 
-              <label>LinkedIn Company Link:</label>
+              <label>Company PhoneNumber</label>
               <input
                 type="text"
                 name="linkedInCompanyLink"
