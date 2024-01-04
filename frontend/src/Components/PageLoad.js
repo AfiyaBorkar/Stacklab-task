@@ -3,7 +3,7 @@ import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 import Button from "@mui/material/Button";
 
-export default function PageLoad() {
+export default function PageLoad({msg}) {
   // const [pageLoaded, setPageLoaded] = useState(false);
 
   // useEffect(() => {
@@ -32,7 +32,8 @@ export default function PageLoad() {
           open={open}
         >
           <CircularProgress color="inherit" />
-          <h2>Please wait, Profile is creating...</h2>
+          
+          <h2>Please wait, {msg.msg}</h2>
         </Backdrop>
       </div>
     </>

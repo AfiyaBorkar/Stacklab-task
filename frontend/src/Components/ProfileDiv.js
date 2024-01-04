@@ -69,7 +69,7 @@ export default function ProfileDiv() {
       >
         {!isloading ? (
           openpopup ? (
-            <PopUpPage UserInfo={UserInfo} />
+            <PopUpPage UserInfo={UserInfo}   />
           ) : (
             <div className="qrc_page_wrapper thinScrollBar">
               <div
@@ -89,7 +89,7 @@ export default function ProfileDiv() {
           )
         ) : (
           // Show Loader when UserInfo is not available
-          <PageLoad />
+          <PageLoad msg={{msg:"Data is loading..."}}/>
         )}
       </myContext.Provider>
     </>

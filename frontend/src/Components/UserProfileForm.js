@@ -175,7 +175,7 @@ const UserProfileForm = () => {
   return (
     <>
       {isloading ? (
-        <PageLoad />
+        <PageLoad msg={{msg:"Profile is creating ..."}} />
       ) : (
         <div className="container">
           <h2>Profile Form</h2>
