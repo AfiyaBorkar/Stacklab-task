@@ -303,7 +303,7 @@ const UserProfileForm = () => {
                 onChange={handleInputChange}
               />
 
-              <label>Company Photos: (4 pics required compulsory)</label>
+              <label>Company Photos: (upload 2 or more pics here)</label>
               <input
                 type="file"
                 name="companyPhotos"
