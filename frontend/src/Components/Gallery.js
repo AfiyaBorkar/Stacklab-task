@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Gallery({ UserInfo }) {
   const renderGalleryItems = () => {
-    return UserInfo?.companyPhotos?.map((photo, index) => (
+    return UserInfo?.companyPhotos.map((photo, index) => (
       <li key={index}>
         <a
           rel="nofollow noopener noreferrer"
